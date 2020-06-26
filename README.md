@@ -10,3 +10,6 @@ Each book has its title, ISBN13, page count, maturity rating, and category store
 Then, using the RMariaDatabase package for R, I transfer the information in the data frame into a SQL table in the MySQL server I've created. 
 
 TODO: create a simple website for my friend to search his books by category
+
+
+Note: I've removed any identifiers of my friend so the uploaded code won't work. The GET commands at the start require a userid before ".xml" in the address.
