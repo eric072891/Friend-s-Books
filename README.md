@@ -9,7 +9,7 @@ Then, I search for the corresponding title using the Google Books API. I downloa
 Each book has its title, ISBN13, page count, maturity rating, and category stored as a row of a data frame. 
 Then, using the RMariaDatabase package for R, I transfer the information in the data frame into a SQL table in the MySQL server I've created. 
 
-TODO: create a simple website for my friend to search his books by category
+TODO: host the database and web framework Django files on a webserver (digital ocean or something).
 
 
 Note: I've removed any identifiers of my friend so the uploaded code won't work. The GET commands at the start require a userid before ".xml" in the address.
