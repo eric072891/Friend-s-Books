@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{category}}</title>
+    Here are the categories your books fall in!
+</head>
+<body>
+
+    <ul>
+    {% for book in books %}
+        <li><a href="/books/{{ book.category }}/title/">{{ book.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+</body>
+</html>
