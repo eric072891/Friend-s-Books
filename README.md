@@ -1,5 +1,5 @@
 # Friend-s-Books
-This is a simple 4 day project to learn some SQl (Barely). I ended up learning more about setting up MySQL, APIs, and adding users with certain permissions
+This is a simple 4 day project to practice SQL and Python. I ended up learning more about setting up MySQL, APIs, and adding users with certain permissions
 and creating tables. 
 The code intent is as follows. My friend has a list of books he wants to read in the future. This list is compiled on the Goodreads website. 
 Unfortunately, the books on this website don't have tags. They aren't sorted by category: fiction, romance, history, etc. 
