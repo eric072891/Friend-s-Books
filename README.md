@@ -11,7 +11,7 @@ Then, using the RMariaDatabase package for R, I transfer the information in the 
 
 Next, using Django, we develop a webpage for my friend to see his books in each category. The homepage is a sorted list of categories his books fall in. Each category is a clickable link that takes you to the set of books in that category. 
 
-TODO: host the database and web framework Django files on a webserver (digital ocean, heroku, or something). Also, potentially rewrite the python code to do what the R code does (API query and string regex) to have it in one place. Then, any good reads user could find category tags associated with their books. However, this would involve more stringent cleaning of the category data from google (more users==more categories, would have be more general in the text cleaning)
+TODO: host the database and web framework Django files on a webserver (digital ocean, heroku, or something). Also, potentially rewrite the python code to do what the R code does (API query and string regex) to have it in one place. Then, any good reads user could find category tags associated with their books. However, this would involve more stringent cleaning of the category data from google (more users==more categories, would have to be more general in the text cleaning)
 
 
 Note: I've removed any identifiers of my friend so the uploaded code won't work. The GET commands at the start require a userid before ".xml" in the address.
