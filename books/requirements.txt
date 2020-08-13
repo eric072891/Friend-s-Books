@@ -1,0 +1,6 @@
+django
+gunicorn
+django-heroku
+requests
+xmltodict
+dj-database-url
