@@ -14,6 +14,7 @@ import requests
 import xmltodict
 from math import floor
 
+key = 'PmNpwtnxrtM6TiYdck3S3Q'
 
 # check if a valid id
 # check if in database
@@ -31,7 +32,7 @@ def ids_and_input_data(request):
             print(userId)
 
             # check if user input is a valid goodreads id
-            valid = requests.get(f'https://www.goodreads.com/review/list/{userId}.xml?key=0Fqoo6dizYhNM8OeCgHpw&v=2&shelf=to-read')
+            valid = requests.get(f'https://www.goodreads.com/review/list/{userId}.xml?key={key}&v=2&shelf=to-read')
 
 
 
@@ -62,7 +63,7 @@ def ids_and_input_data(request):
                         for i in range(num_requests-1):
                             #make a goodreads request
                             pageNum = str(i+1)
-                            Goodreads_request = requests.get(f'https://www.goodreads.com/review/list/{userId}.xml?key=0Fqoo6dizYhNM8OeCgHpw&v=2&shelf=to-read&page={pageNum}')
+                            Goodreads_request = requests.get(f'https://www.goodreads.com/review/list/{userId}.xml?key={key}&v=2&shelf=to-read&page={pageNum}')
                             Goodreads_dict = xmltodict.parse(Goodreads_request.content)
 
                             for j in range(200):
@@ -92,7 +93,7 @@ def ids_and_input_data(request):
 
                     # make good reads request, page is the total number of requests
                     pageNum = num_requests
-                    Goodreads_request = requests.get(f'https://www.goodreads.com/review/list/{userId}.xml?key=0Fqoo6dizYhNM8OeCgHpw&v=2&shelf=to-read&page={pageNum}')
+                    Goodreads_request = requests.get(f'https://www.goodreads.com/review/list/{userId}.xml?key={key}&v=2&shelf=to-read&page={pageNum}')
                     Goodreads_dict = xmltodict.parse(Goodreads_request.content)
                     for i in range(remainder):
                         # store information per book along with relevant information from the google api
