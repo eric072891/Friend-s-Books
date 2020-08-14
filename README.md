@@ -1,5 +1,5 @@
 # Friend-s-Books
-This is a simple 4 day project to practice SQL and Python. I ended up learning more about setting up MySQL, APIs, and adding users with certain permissions
+This is a simple 10 day project to practice SQL and Python. I ended up learning more about setting up MySQL, APIs, and adding users with certain permissions
 and creating tables. 
 The code intent is as follows. My friend has a list of books he wants to read in the future. This list is compiled on the Goodreads website. 
 Unfortunately, the books on this website don't have tags. They aren't sorted by category: fiction, romance, history, etc. 
@@ -11,7 +11,7 @@ Then, using the RMariaDatabase package for R, I transfer the information in the 
 
 Next, using Django, we develop a webpage for my friend to see his books in each category. The homepage is a sorted list of categories his books fall in. Each category is a clickable link that takes you to the set of books in that category. 
 
-TODO: host the database and web framework Django files on a webserver (digital ocean, heroku, or something). Also, potentially rewrite the python code to do what the R code does (API query and string regex) to have it in one place. Then, any good reads user could find category tags associated with their books. However, this would involve more stringent cleaning of the category data from google (more users==more categories, would have to be more general in the text cleaning)
+TODO: Clean the categories that are queries from Goodreads data. Make it so that the program remembers if a user's books have already been stored. Add a CSS style sheet.
 
 
 Note: I've removed any identifiers of my friend so the uploaded code won't work. The GET commands at the start require a userid before ".xml" in the address.
