@@ -13,4 +13,4 @@ Next, using Django, we develop a webpage for my friend to see his books in each 
 TODO: Clean the categories that are queries from Goodreads data. Make it so that the program remembers if a user's books have already been stored. Add a CSS style sheet.
 
 
-Note: I've removed any identifiers of my friend so the uploaded code won't work. The GET commands at the start require a userid before ".xml" in the address.
+
