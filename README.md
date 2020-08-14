@@ -1,6 +1,5 @@
 # Friend-s-Books
-This is a simple 10 day project to practice SQL and Python. I ended up learning more about setting up MySQL, APIs, and adding users with certain permissions
-and creating tables. 
+This is a simple 10 day project to practice SQL and Python. I ended up learning more about setting up MySQL, APIs, Django's MVT web framework, and hosting a website using github. I also learned how to use github desktop to commit locally before pushing to a remote repository. 
 The code intent is as follows. My friend has a list of books he wants to read in the future. This list is compiled on the Goodreads website. 
 Unfortunately, the books on this website don't have tags. They aren't sorted by category: fiction, romance, history, etc. 
 However, google books does sort their books by category. 
